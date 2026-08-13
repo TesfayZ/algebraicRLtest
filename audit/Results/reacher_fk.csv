@@ -1,0 +1,45 @@
+env_id,condition,gymnasium,mujoco,n_poses,median,maximum,release_tag
+Reacher-v4,mj_forward only,0.29.1,2.3.7,2000,2.7755575615628914e-17,1.1796119636642288e-16,mj-gymnasium-0.29.1-mujoco-2.3.7
+Reacher-v4,after mj_step,0.29.1,2.3.7,2000,6.19923674546885e-09,2.2736074488383107e-08,mj-gymnasium-0.29.1-mujoco-2.3.7
+Reacher-v4,"step, qvel = 0",0.29.1,2.3.7,2000,2.7755575615628914e-17,1.1796119636642288e-16,mj-gymnasium-0.29.1-mujoco-2.3.7
+Reacher-v4,outside the limit,0.29.1,2.3.7,2000,6.3203302522185645e-09,0.00024608702354716495,mj-gymnasium-0.29.1-mujoco-2.3.7
+Reacher-v4,mj_forward only,1.0.0,3.1.6,2000,2.0816681711721685e-17,8.326672684688674e-17,mj-gymnasium-1.0.0-mujoco-3.1.6
+Reacher-v4,after mj_step,1.0.0,3.1.6,2000,6.199236710774381e-09,2.2736074488383107e-08,mj-gymnasium-1.0.0-mujoco-3.1.6
+Reacher-v4,"step, qvel = 0",1.0.0,3.1.6,2000,2.7755575615628914e-17,1.1102230246251565e-16,mj-gymnasium-1.0.0-mujoco-3.1.6
+Reacher-v4,outside the limit,1.0.0,3.1.6,2000,6.3203302522185645e-09,0.00024608702354716495,mj-gymnasium-1.0.0-mujoco-3.1.6
+Reacher-v5,mj_forward only,1.0.0,3.1.6,2000,2.0816681711721685e-17,8.326672684688674e-17,mj-gymnasium-1.0.0-mujoco-3.1.6
+Reacher-v5,after mj_step,1.0.0,3.1.6,2000,6.199236710774381e-09,2.2736074488383107e-08,mj-gymnasium-1.0.0-mujoco-3.1.6
+Reacher-v5,"step, qvel = 0",1.0.0,3.1.6,2000,2.7755575615628914e-17,1.1102230246251565e-16,mj-gymnasium-1.0.0-mujoco-3.1.6
+Reacher-v5,outside the limit,1.0.0,3.1.6,2000,6.3203302522185645e-09,0.00024608702354716495,mj-gymnasium-1.0.0-mujoco-3.1.6
+Reacher-v4,mj_forward only,1.2.3,3.2.7,2000,2.0816681711721685e-17,8.326672684688674e-17,mj-gymnasium-1.2.3-mujoco-3.2.7
+Reacher-v4,after mj_step,1.2.3,3.2.7,2000,6.199236710774381e-09,2.2736074488383107e-08,mj-gymnasium-1.2.3-mujoco-3.2.7
+Reacher-v4,"step, qvel = 0",1.2.3,3.2.7,2000,2.7755575615628914e-17,1.1102230246251565e-16,mj-gymnasium-1.2.3-mujoco-3.2.7
+Reacher-v4,outside the limit,1.2.3,3.2.7,2000,6.3203302522185645e-09,0.00024608702354716495,mj-gymnasium-1.2.3-mujoco-3.2.7
+Reacher-v5,mj_forward only,1.2.3,3.2.7,2000,2.0816681711721685e-17,8.326672684688674e-17,mj-gymnasium-1.2.3-mujoco-3.2.7
+Reacher-v5,after mj_step,1.2.3,3.2.7,2000,6.199236710774381e-09,2.2736074488383107e-08,mj-gymnasium-1.2.3-mujoco-3.2.7
+Reacher-v5,"step, qvel = 0",1.2.3,3.2.7,2000,2.7755575615628914e-17,1.1102230246251565e-16,mj-gymnasium-1.2.3-mujoco-3.2.7
+Reacher-v5,outside the limit,1.2.3,3.2.7,2000,6.3203302522185645e-09,0.00024608702354716495,mj-gymnasium-1.2.3-mujoco-3.2.7
+Reacher-v4,mj_forward only,1.3.0,3.1.6,2000,2.0816681711721685e-17,8.326672684688674e-17,mj-gymnasium-1.3.0-mujoco-3.1.6
+Reacher-v4,after mj_step,1.3.0,3.1.6,2000,6.199236710774381e-09,2.2736074488383107e-08,mj-gymnasium-1.3.0-mujoco-3.1.6
+Reacher-v4,"step, qvel = 0",1.3.0,3.1.6,2000,2.7755575615628914e-17,1.1102230246251565e-16,mj-gymnasium-1.3.0-mujoco-3.1.6
+Reacher-v4,outside the limit,1.3.0,3.1.6,2000,6.3203302522185645e-09,0.00024608702354716495,mj-gymnasium-1.3.0-mujoco-3.1.6
+Reacher-v5,mj_forward only,1.3.0,3.1.6,2000,2.0816681711721685e-17,8.326672684688674e-17,mj-gymnasium-1.3.0-mujoco-3.1.6
+Reacher-v5,after mj_step,1.3.0,3.1.6,2000,6.199236710774381e-09,2.2736074488383107e-08,mj-gymnasium-1.3.0-mujoco-3.1.6
+Reacher-v5,"step, qvel = 0",1.3.0,3.1.6,2000,2.7755575615628914e-17,1.1102230246251565e-16,mj-gymnasium-1.3.0-mujoco-3.1.6
+Reacher-v5,outside the limit,1.3.0,3.1.6,2000,6.3203302522185645e-09,0.00024608702354716495,mj-gymnasium-1.3.0-mujoco-3.1.6
+Reacher-v4,mj_forward only,1.3.0,3.10.0,2000,2.0816681711721685e-17,8.326672684688674e-17,mj-gymnasium-1.3.0-mujoco-3.10.0
+Reacher-v4,after mj_step,1.3.0,3.10.0,2000,6.199236710774381e-09,2.2736074488383107e-08,mj-gymnasium-1.3.0-mujoco-3.10.0
+Reacher-v4,"step, qvel = 0",1.3.0,3.10.0,2000,2.7755575615628914e-17,1.1102230246251565e-16,mj-gymnasium-1.3.0-mujoco-3.10.0
+Reacher-v4,outside the limit,1.3.0,3.10.0,2000,6.3203302522185645e-09,0.00024608702354716495,mj-gymnasium-1.3.0-mujoco-3.10.0
+Reacher-v5,mj_forward only,1.3.0,3.10.0,2000,2.0816681711721685e-17,8.326672684688674e-17,mj-gymnasium-1.3.0-mujoco-3.10.0
+Reacher-v5,after mj_step,1.3.0,3.10.0,2000,6.199236710774381e-09,2.2736074488383107e-08,mj-gymnasium-1.3.0-mujoco-3.10.0
+Reacher-v5,"step, qvel = 0",1.3.0,3.10.0,2000,2.7755575615628914e-17,1.1102230246251565e-16,mj-gymnasium-1.3.0-mujoco-3.10.0
+Reacher-v5,outside the limit,1.3.0,3.10.0,2000,6.3203302522185645e-09,0.00024608702354716495,mj-gymnasium-1.3.0-mujoco-3.10.0
+Reacher-v4,mj_forward only,1.3.0,3.2.7,2000,2.0816681711721685e-17,8.326672684688674e-17,mj-gymnasium-1.3.0-mujoco-3.2.7
+Reacher-v4,after mj_step,1.3.0,3.2.7,2000,6.199236710774381e-09,2.2736074488383107e-08,mj-gymnasium-1.3.0-mujoco-3.2.7
+Reacher-v4,"step, qvel = 0",1.3.0,3.2.7,2000,2.7755575615628914e-17,1.1102230246251565e-16,mj-gymnasium-1.3.0-mujoco-3.2.7
+Reacher-v4,outside the limit,1.3.0,3.2.7,2000,6.3203302522185645e-09,0.00024608702354716495,mj-gymnasium-1.3.0-mujoco-3.2.7
+Reacher-v5,mj_forward only,1.3.0,3.2.7,2000,2.0816681711721685e-17,8.326672684688674e-17,mj-gymnasium-1.3.0-mujoco-3.2.7
+Reacher-v5,after mj_step,1.3.0,3.2.7,2000,6.199236710774381e-09,2.2736074488383107e-08,mj-gymnasium-1.3.0-mujoco-3.2.7
+Reacher-v5,"step, qvel = 0",1.3.0,3.2.7,2000,2.7755575615628914e-17,1.1102230246251565e-16,mj-gymnasium-1.3.0-mujoco-3.2.7
+Reacher-v5,outside the limit,1.3.0,3.2.7,2000,6.3203302522185645e-09,0.00024608702354716495,mj-gymnasium-1.3.0-mujoco-3.2.7

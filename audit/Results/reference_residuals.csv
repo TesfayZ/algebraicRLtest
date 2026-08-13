@@ -1,0 +1,19 @@
+env_id,tag,generator,kind,residual
+Acrobot-v1,gymnasium-1.3.0,unit-norm th1,vanishing,1.6959063233535937e-08
+Acrobot-v1,gymnasium-1.3.0,unit-norm th2,vanishing,1.670157091462947e-08
+Acrobot-v1,gymnasium-1.3.0,energy,conserved,0.0035535900026434737
+Pendulum-v1,gymnasium-1.3.0,unit-norm,vanishing,1.7071029099139486e-08
+Pendulum-v1,gymnasium-1.3.0,energy,conserved,0.053896681532422205
+Reacher-v4,mj-gymnasium-1.3.0-mujoco-3.10.0,unit-norm th1,vanishing,3.5695871626934606e-17
+Reacher-v4,mj-gymnasium-1.3.0-mujoco-3.10.0,unit-norm th2,vanishing,3.384587317416302e-17
+Reacher-v4,mj-gymnasium-1.3.0-mujoco-3.10.0,dz=0,vanishing,0.0
+Reacher-v4,mj-gymnasium-1.3.0-mujoco-3.10.0,fk-x,vanishing,1.110142287259309e-08
+Reacher-v4,mj-gymnasium-1.3.0-mujoco-3.10.0,fk-y,vanishing,1.5843491362618102e-07
+Reacher-v5,mj-gymnasium-1.3.0-mujoco-3.10.0,unit-norm th1,vanishing,3.5695871626934606e-17
+Reacher-v5,mj-gymnasium-1.3.0-mujoco-3.10.0,unit-norm th2,vanishing,3.384587317416302e-17
+Reacher-v5,mj-gymnasium-1.3.0-mujoco-3.10.0,fk-x,vanishing,1.110142287259309e-08
+Reacher-v5,mj-gymnasium-1.3.0-mujoco-3.10.0,fk-y,vanishing,1.5843491362618102e-07
+InvertedDoublePendulum-v4,mj-gymnasium-1.3.0-mujoco-3.10.0,unit-norm-1,vanishing,3.4799780876187915e-17
+InvertedDoublePendulum-v4,mj-gymnasium-1.3.0-mujoco-3.10.0,unit-norm-2,vanishing,3.356015243525654e-17
+InvertedDoublePendulum-v5,mj-gymnasium-1.3.0-mujoco-3.10.0,unit-norm-1,vanishing,3.4799780876187915e-17
+InvertedDoublePendulum-v5,mj-gymnasium-1.3.0-mujoco-3.10.0,unit-norm-2,vanishing,3.356015243525654e-17

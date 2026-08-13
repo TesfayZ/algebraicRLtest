@@ -1,0 +1,11 @@
+M,R,arity,d_max,degree,experiment,label,largest_subproblem_M,max_denominator,monolithic_M,n_generators,n_searched,n_subproblems,nullspace_dim,recovered,representable,scale,subproblem_M,supports_at_k6,svd_seconds,total_truth,wall_seconds
+,,2,,2,accounting,,,,78,,,55,,,,,6,,,,
+,,4,,2,accounting,,,,78,,,330,,,,,15,,,,
+,,6,,2,accounting,,,,78,,,462,,,,,28,,,,
+,,2,,3,accounting,,,,364,,,55,,,,,10,,,,
+,,4,,3,accounting,,,,364,,,330,,,,,35,,,,
+,,6,,3,accounting,,,,364,,,462,,,,,84,,,,
+,,,,,units,metres (raw),,100,,,,,,,False,1.0,,,,,
+,,,,,units,rescaled by l1,,10,,,,,,,True,0.1,,,,,
+78,,,,,monolithic,,,,,,,,21,,,,,256851595.0,0.968120813369751,,
+,6,,2,,arity_graded,,28,,78,10,7,2970,,5,,,,,,5,1202.9145774841309

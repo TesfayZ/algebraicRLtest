@@ -1,0 +1,10 @@
+M,N,cond_ratio,cross_episode_survivors,degree,dim_tol_0.0001,dim_tol_1e-06,dim_tol_1e-08,dim_tol_1e-10,env,genuine_residual,label,n,nullspace_dim,single_episode_nullspace,spurious_residual
+12,4008,0.003983107499231682,,1,0,0,0,0,Hopper-v5,,,11,,,
+78,4008,1.2604174755449042e-05,,2,3,0,0,0,Hopper-v5,,,11,,,
+78,,,0,2,,,,,Hopper-v5,,,,,0,
+18,4008,0.2422714406392329,,1,0,0,0,0,HalfCheetah-v5,,,17,,,
+171,4008,0.03320556376469827,,2,0,0,0,0,HalfCheetah-v5,,,17,,,
+171,,,0,2,,,,,HalfCheetah-v5,,,,,0,
+,,,,,,,,,spurious_variable,,train (spurious correlation present),,5,,
+,,,,,,,,,spurious_variable,,held-out trajectory (correlation absent),,1,,
+,,,,,,,,,spurious_variable,1.833853542564512e-17,cross-trajectory check,,,,0.1209306886703454

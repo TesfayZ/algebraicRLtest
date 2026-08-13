@@ -1,0 +1,20 @@
+fault,system,category,noise,declared_decision,expected_decision,declared_correct,recovered_decision,recovered_matches_declared,attribution_verdict,named_parameter,fitted_rational,seconds_declared,seconds_recovered,alternative_source,alternative_decision
+acrobot_m2_1.3,acrobot,parameter,0.0,different,different,True,different,True,parameter fault,m2,13/10,0.012455224990844727,0.01886773109436035,,
+acrobot_l1_1.2,acrobot,parameter,0.0,different,different,True,different,True,parameter fault,l1,6/5,0.011302709579467773,0.018265247344970703,,
+acrobot_lc2_0.6,acrobot,parameter,0.0,different,different,True,different,True,parameter fault,lc2,3/5,0.010833263397216797,0.021054744720458984,,
+acrobot_I2_1.5,acrobot,parameter,0.0,different,different,True,different,True,parameter fault,I2,3/2,0.011068344116210938,0.019597530364990234,,
+acrobot_g_9.81,acrobot,parameter,0.0,different,different,True,different,True,parameter fault,g,981/100,0.010143280029296875,0.018004417419433594,,
+reacher_l2_0.13,reacher,parameter,0.0,different,different,True,different,True,parameter fault,ell2,13/10,0.17021870613098145,0.3570835590362549,,
+reacher_l1_0.09,reacher,parameter,0.0,different,different,True,different,True,parameter fault,ell1,9/10,0.16561603546142578,0.3760104179382324,,
+acrobot_nips_coriolis,acrobot,structural,0.0,none,none,True,unavailable,,not explicable as a parameter fault,,,1.6689300537109375e-06,1.430511474609375e-06,,
+acrobot_torque_leak,acrobot,structural,0.0,none,none,True,unavailable,,not explicable as a parameter fault,,,7.152557373046875e-07,1.430511474609375e-06,,
+acrobot_euler,acrobot,numerical,0.0,equal,equal,True,unavailable,,not explicable as a parameter fault,,,0.009377241134643555,9.5367431640625e-07,,
+acrobot_dt_0.2,acrobot,numerical,0.0,equal,equal,True,unavailable,,not explicable as a parameter fault,,,0.01667499542236328,9.5367431640625e-07,,
+acrobot_obs_swap,acrobot,observation,0.0,different,different,True,unavailable,,not explicable as a parameter fault,,,0.019420146942138672,7.152557373046875e-07,,
+acrobot_obs_unnormalised,acrobot,observation,0.0,different,different,True,unavailable,,not explicable as a parameter fault,,,0.01920294761657715,4.76837158203125e-07,,
+reacher_dz_offset,reacher,observation,0.0,different,different,True,unavailable,,consistent with spec,,,0.16554927825927734,9.5367431640625e-07,,
+reacher_obs_swap,reacher,observation,0.0,different,different,True,unavailable,,not explicable as a parameter fault,,,0.17997956275939941,1.430511474609375e-06,,
+none_acrobot,acrobot,control,0.0,equal,equal,True,unavailable,,consistent with spec,,,0.01269984245300293,1.1920928955078125e-06,,
+none_reacher,reacher,control,0.0,equal,equal,True,unavailable,,consistent with spec,,,0.16519594192504883,1.1920928955078125e-06,,
+installed_acrobot,acrobot,installed,0.0,equal,equal,True,unavailable,,,,,,,m2=1.3 fault ideal,different
+installed_reacher,reacher,installed,0.0,equal,equal,True,unavailable,,,,,,,ideal from the capsule geoms,different

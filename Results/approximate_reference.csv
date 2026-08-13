@@ -1,0 +1,1769 @@
+arm,setting,seed,regime,noise,fault,system,category,n_generators,expected_broken,localised,detected,localisation_exact,localisation_jaccard
+perturbed,0e+00,0,unpaired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,0e+00,0,unpaired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,0e+00,0,unpaired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,0e+00,0,unpaired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,0e+00,0,unpaired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,0e+00,0,unpaired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,0e+00,0,unpaired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,0e+00,0,unpaired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,0e+00,0,unpaired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,0e+00,0,unpaired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,0e+00,0,unpaired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,0e+00,0,unpaired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,0e+00,0,unpaired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,0e+00,0,unpaired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,0e+00,0,unpaired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,0e+00,0,unpaired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,0e+00,0,unpaired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,0e+00,0,paired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,0e+00,0,paired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,0e+00,0,paired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,0e+00,0,paired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,0e+00,0,paired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,0e+00,0,paired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,0e+00,0,paired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,0e+00,0,paired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,0e+00,0,paired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,0e+00,0,paired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,0e+00,0,paired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,0e+00,0,paired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,0e+00,0,paired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,0e+00,0,paired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,0e+00,0,paired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,0e+00,0,paired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,0e+00,0,paired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-12,0,unpaired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-12,0,unpaired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-12,0,unpaired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-12,0,unpaired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-12,0,unpaired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-12,0,unpaired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-12,0,unpaired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-12,0,unpaired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-12,0,unpaired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-12,0,unpaired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-12,0,unpaired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-12,0,unpaired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-12,0,unpaired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,1e-12,0,unpaired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-12,0,unpaired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-12,0,unpaired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-12,0,unpaired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-12,0,paired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-12,0,paired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-12,0,paired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-12,0,paired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-12,0,paired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-12,0,paired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-12,0,paired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-12,0,paired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-12,0,paired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-12,0,paired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-12,0,paired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-12,0,paired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-12,0,paired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,1e-12,0,paired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-12,0,paired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-12,0,paired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-12,0,paired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-12,1,unpaired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-12,1,unpaired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-12,1,unpaired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-12,1,unpaired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-12,1,unpaired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-12,1,unpaired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-12,1,unpaired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-12,1,unpaired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-12,1,unpaired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-12,1,unpaired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-12,1,unpaired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-12,1,unpaired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-12,1,unpaired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,1e-12,1,unpaired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-12,1,unpaired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-12,1,unpaired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-12,1,unpaired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-12,1,paired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-12,1,paired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-12,1,paired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-12,1,paired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-12,1,paired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-12,1,paired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-12,1,paired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-12,1,paired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-12,1,paired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-12,1,paired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-12,1,paired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-12,1,paired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-12,1,paired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,1e-12,1,paired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-12,1,paired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-12,1,paired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-12,1,paired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-12,2,unpaired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-12,2,unpaired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-12,2,unpaired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-12,2,unpaired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-12,2,unpaired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-12,2,unpaired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-12,2,unpaired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-12,2,unpaired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-12,2,unpaired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-12,2,unpaired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-12,2,unpaired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-12,2,unpaired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-12,2,unpaired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,1e-12,2,unpaired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-12,2,unpaired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-12,2,unpaired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-12,2,unpaired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-12,2,paired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-12,2,paired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-12,2,paired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-12,2,paired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-12,2,paired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-12,2,paired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-12,2,paired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-12,2,paired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-12,2,paired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-12,2,paired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-12,2,paired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-12,2,paired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-12,2,paired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,1e-12,2,paired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-12,2,paired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-12,2,paired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-12,2,paired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-12,3,unpaired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-12,3,unpaired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-12,3,unpaired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-12,3,unpaired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-12,3,unpaired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-12,3,unpaired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-12,3,unpaired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-12,3,unpaired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-12,3,unpaired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-12,3,unpaired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-12,3,unpaired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-12,3,unpaired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-12,3,unpaired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,1e-12,3,unpaired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-12,3,unpaired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-12,3,unpaired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-12,3,unpaired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-12,3,paired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-12,3,paired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-12,3,paired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-12,3,paired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-12,3,paired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-12,3,paired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-12,3,paired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-12,3,paired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-12,3,paired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-12,3,paired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-12,3,paired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-12,3,paired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-12,3,paired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,1e-12,3,paired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-12,3,paired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-12,3,paired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-12,3,paired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-12,4,unpaired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-12,4,unpaired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-12,4,unpaired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-12,4,unpaired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-12,4,unpaired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-12,4,unpaired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-12,4,unpaired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-12,4,unpaired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-12,4,unpaired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-12,4,unpaired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-12,4,unpaired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-12,4,unpaired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-12,4,unpaired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,1e-12,4,unpaired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-12,4,unpaired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-12,4,unpaired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-12,4,unpaired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-12,4,paired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-12,4,paired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-12,4,paired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-12,4,paired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-12,4,paired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-12,4,paired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-12,4,paired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-12,4,paired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-12,4,paired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-12,4,paired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-12,4,paired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-12,4,paired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-12,4,paired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,1e-12,4,paired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-12,4,paired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-12,4,paired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-12,4,paired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-10,0,unpaired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-10,0,unpaired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-10,0,unpaired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-10,0,unpaired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-10,0,unpaired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-10,0,unpaired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-10,0,unpaired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-10,0,unpaired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-10,0,unpaired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-10,0,unpaired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-10,0,unpaired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-10,0,unpaired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-10,0,unpaired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,1e-10,0,unpaired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-10,0,unpaired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-10,0,unpaired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-10,0,unpaired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-10,0,paired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-10,0,paired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-10,0,paired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-10,0,paired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-10,0,paired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-10,0,paired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-10,0,paired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-10,0,paired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-10,0,paired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-10,0,paired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-10,0,paired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-10,0,paired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-10,0,paired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,1e-10,0,paired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-10,0,paired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-10,0,paired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-10,0,paired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-10,1,unpaired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-10,1,unpaired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-10,1,unpaired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-10,1,unpaired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-10,1,unpaired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-10,1,unpaired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-10,1,unpaired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-10,1,unpaired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-10,1,unpaired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-10,1,unpaired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-10,1,unpaired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-10,1,unpaired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-10,1,unpaired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,1e-10,1,unpaired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-10,1,unpaired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-10,1,unpaired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-10,1,unpaired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-10,1,paired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-10,1,paired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-10,1,paired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-10,1,paired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-10,1,paired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-10,1,paired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-10,1,paired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-10,1,paired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-10,1,paired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-10,1,paired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-10,1,paired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-10,1,paired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-10,1,paired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,1e-10,1,paired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-10,1,paired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-10,1,paired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-10,1,paired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-10,2,unpaired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-10,2,unpaired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-10,2,unpaired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-10,2,unpaired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-10,2,unpaired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-10,2,unpaired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-10,2,unpaired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-10,2,unpaired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-10,2,unpaired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-10,2,unpaired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-10,2,unpaired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-10,2,unpaired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-10,2,unpaired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,1e-10,2,unpaired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-10,2,unpaired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-10,2,unpaired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-10,2,unpaired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-10,2,paired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-10,2,paired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-10,2,paired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-10,2,paired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-10,2,paired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-10,2,paired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-10,2,paired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-10,2,paired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-10,2,paired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-10,2,paired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-10,2,paired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-10,2,paired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-10,2,paired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,1e-10,2,paired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-10,2,paired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-10,2,paired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-10,2,paired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-10,3,unpaired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-10,3,unpaired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-10,3,unpaired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-10,3,unpaired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-10,3,unpaired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-10,3,unpaired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-10,3,unpaired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-10,3,unpaired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-10,3,unpaired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-10,3,unpaired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-10,3,unpaired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-10,3,unpaired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-10,3,unpaired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,1e-10,3,unpaired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-10,3,unpaired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-10,3,unpaired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-10,3,unpaired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-10,3,paired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-10,3,paired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-10,3,paired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-10,3,paired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-10,3,paired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-10,3,paired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-10,3,paired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-10,3,paired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-10,3,paired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-10,3,paired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-10,3,paired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-10,3,paired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-10,3,paired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,1e-10,3,paired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-10,3,paired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-10,3,paired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-10,3,paired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-10,4,unpaired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-10,4,unpaired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-10,4,unpaired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-10,4,unpaired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-10,4,unpaired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-10,4,unpaired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-10,4,unpaired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-10,4,unpaired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-10,4,unpaired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-10,4,unpaired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-10,4,unpaired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-10,4,unpaired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-10,4,unpaired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,1e-10,4,unpaired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-10,4,unpaired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-10,4,unpaired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-10,4,unpaired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-10,4,paired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-10,4,paired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-10,4,paired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-10,4,paired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-10,4,paired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-10,4,paired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-10,4,paired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-10,4,paired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-10,4,paired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-10,4,paired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-10,4,paired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-10,4,paired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-10,4,paired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,1e-10,4,paired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-10,4,paired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-10,4,paired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-10,4,paired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-08,0,unpaired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-08,0,unpaired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-08,0,unpaired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-08,0,unpaired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-08,0,unpaired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-08,0,unpaired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-08,0,unpaired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-08,0,unpaired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-08,0,unpaired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-08,0,unpaired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-08,0,unpaired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-08,0,unpaired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-08,0,unpaired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,1e-08,0,unpaired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-08,0,unpaired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-08,0,unpaired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-08,0,unpaired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-08,0,paired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-08,0,paired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-08,0,paired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-08,0,paired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-08,0,paired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-08,0,paired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-08,0,paired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-08,0,paired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-08,0,paired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-08,0,paired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-08,0,paired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-08,0,paired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-08,0,paired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,1e-08,0,paired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-08,0,paired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-08,0,paired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-08,0,paired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-08,1,unpaired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-08,1,unpaired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-08,1,unpaired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-08,1,unpaired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-08,1,unpaired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-08,1,unpaired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-08,1,unpaired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-08,1,unpaired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-08,1,unpaired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-08,1,unpaired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-08,1,unpaired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-08,1,unpaired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-08,1,unpaired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,1e-08,1,unpaired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-08,1,unpaired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-08,1,unpaired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-08,1,unpaired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-08,1,paired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-08,1,paired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-08,1,paired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-08,1,paired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-08,1,paired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-08,1,paired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-08,1,paired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-08,1,paired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-08,1,paired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-08,1,paired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-08,1,paired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-08,1,paired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-08,1,paired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,1e-08,1,paired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-08,1,paired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-08,1,paired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-08,1,paired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-08,2,unpaired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-08,2,unpaired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-08,2,unpaired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-08,2,unpaired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-08,2,unpaired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-08,2,unpaired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-08,2,unpaired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-08,2,unpaired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-08,2,unpaired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-08,2,unpaired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-08,2,unpaired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-08,2,unpaired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-08,2,unpaired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,1e-08,2,unpaired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-08,2,unpaired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-08,2,unpaired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-08,2,unpaired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-08,2,paired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-08,2,paired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-08,2,paired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-08,2,paired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-08,2,paired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-08,2,paired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-08,2,paired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-08,2,paired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-08,2,paired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-08,2,paired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-08,2,paired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-08,2,paired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-08,2,paired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,1e-08,2,paired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-08,2,paired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-08,2,paired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-08,2,paired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-08,3,unpaired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-08,3,unpaired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-08,3,unpaired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-08,3,unpaired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-08,3,unpaired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-08,3,unpaired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-08,3,unpaired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-08,3,unpaired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-08,3,unpaired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-08,3,unpaired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-08,3,unpaired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-08,3,unpaired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-08,3,unpaired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,1e-08,3,unpaired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-08,3,unpaired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-08,3,unpaired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-08,3,unpaired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-08,3,paired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-08,3,paired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-08,3,paired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-08,3,paired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-08,3,paired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-08,3,paired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-08,3,paired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-08,3,paired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-08,3,paired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-08,3,paired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-08,3,paired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-08,3,paired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-08,3,paired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,1e-08,3,paired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-08,3,paired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-08,3,paired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-08,3,paired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-08,4,unpaired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-08,4,unpaired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-08,4,unpaired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-08,4,unpaired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-08,4,unpaired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-08,4,unpaired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-08,4,unpaired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-08,4,unpaired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-08,4,unpaired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-08,4,unpaired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-08,4,unpaired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-08,4,unpaired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-08,4,unpaired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,1e-08,4,unpaired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-08,4,unpaired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-08,4,unpaired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-08,4,unpaired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-08,4,paired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-08,4,paired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-08,4,paired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-08,4,paired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-08,4,paired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-08,4,paired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-08,4,paired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-08,4,paired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-08,4,paired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-08,4,paired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-08,4,paired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-08,4,paired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-08,4,paired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,1e-08,4,paired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-08,4,paired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-08,4,paired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-08,4,paired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-06,0,unpaired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-06,0,unpaired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-06,0,unpaired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-06,0,unpaired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-06,0,unpaired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-06,0,unpaired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-06,0,unpaired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-06,0,unpaired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-06,0,unpaired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-06,0,unpaired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-06,0,unpaired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-06,0,unpaired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-06,0,unpaired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,1e-06,0,unpaired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-06,0,unpaired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-06,0,unpaired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-06,0,unpaired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-06,0,paired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-06,0,paired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-06,0,paired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-06,0,paired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-06,0,paired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-06,0,paired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-06,0,paired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-06,0,paired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-06,0,paired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-06,0,paired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-06,0,paired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-06,0,paired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-06,0,paired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,1e-06,0,paired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-06,0,paired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-06,0,paired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-06,0,paired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-06,1,unpaired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-06,1,unpaired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-06,1,unpaired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-06,1,unpaired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-06,1,unpaired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-06,1,unpaired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-06,1,unpaired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-06,1,unpaired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-06,1,unpaired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-06,1,unpaired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-06,1,unpaired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-06,1,unpaired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-06,1,unpaired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,1e-06,1,unpaired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-06,1,unpaired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-06,1,unpaired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-06,1,unpaired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-06,1,paired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-06,1,paired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-06,1,paired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-06,1,paired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-06,1,paired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-06,1,paired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-06,1,paired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-06,1,paired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-06,1,paired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-06,1,paired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-06,1,paired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-06,1,paired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-06,1,paired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,1e-06,1,paired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-06,1,paired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-06,1,paired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-06,1,paired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-06,2,unpaired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-06,2,unpaired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-06,2,unpaired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-06,2,unpaired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-06,2,unpaired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-06,2,unpaired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-06,2,unpaired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-06,2,unpaired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-06,2,unpaired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-06,2,unpaired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-06,2,unpaired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-06,2,unpaired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-06,2,unpaired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,1e-06,2,unpaired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-06,2,unpaired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-06,2,unpaired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-06,2,unpaired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-06,2,paired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-06,2,paired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-06,2,paired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-06,2,paired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-06,2,paired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-06,2,paired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-06,2,paired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-06,2,paired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-06,2,paired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-06,2,paired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-06,2,paired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-06,2,paired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-06,2,paired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,1e-06,2,paired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-06,2,paired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-06,2,paired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-06,2,paired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-06,3,unpaired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-06,3,unpaired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-06,3,unpaired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-06,3,unpaired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-06,3,unpaired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-06,3,unpaired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-06,3,unpaired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-06,3,unpaired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-06,3,unpaired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-06,3,unpaired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-06,3,unpaired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-06,3,unpaired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-06,3,unpaired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,1e-06,3,unpaired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-06,3,unpaired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-06,3,unpaired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-06,3,unpaired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-06,3,paired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-06,3,paired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-06,3,paired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-06,3,paired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-06,3,paired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-06,3,paired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-06,3,paired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-06,3,paired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-06,3,paired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-06,3,paired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-06,3,paired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-06,3,paired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-06,3,paired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,1e-06,3,paired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-06,3,paired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-06,3,paired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-06,3,paired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-06,4,unpaired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-06,4,unpaired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-06,4,unpaired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-06,4,unpaired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-06,4,unpaired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-06,4,unpaired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-06,4,unpaired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-06,4,unpaired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-06,4,unpaired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-06,4,unpaired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-06,4,unpaired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-06,4,unpaired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-06,4,unpaired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,1e-06,4,unpaired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-06,4,unpaired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-06,4,unpaired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-06,4,unpaired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-06,4,paired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-06,4,paired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-06,4,paired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-06,4,paired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-06,4,paired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-06,4,paired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-06,4,paired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-06,4,paired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-06,4,paired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-06,4,paired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-06,4,paired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-06,4,paired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-06,4,paired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,1e-06,4,paired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-06,4,paired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-06,4,paired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-06,4,paired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-05,0,unpaired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-05,0,unpaired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-05,0,unpaired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-05,0,unpaired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-05,0,unpaired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-05,0,unpaired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-05,0,unpaired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-05,0,unpaired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-05,0,unpaired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-05,0,unpaired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-05,0,unpaired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-05,0,unpaired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-05,0,unpaired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,1e-05,0,unpaired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-05,0,unpaired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-05,0,unpaired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-05,0,unpaired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-05,0,paired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-05,0,paired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-05,0,paired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-05,0,paired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-05,0,paired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-05,0,paired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-05,0,paired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-05,0,paired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-05,0,paired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-05,0,paired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-05,0,paired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-05,0,paired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-05,0,paired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,1e-05,0,paired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-05,0,paired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-05,0,paired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-05,0,paired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-05,1,unpaired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-05,1,unpaired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-05,1,unpaired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-05,1,unpaired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-05,1,unpaired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-05,1,unpaired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-05,1,unpaired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-05,1,unpaired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-05,1,unpaired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-05,1,unpaired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-05,1,unpaired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-05,1,unpaired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-05,1,unpaired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,1e-05,1,unpaired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-05,1,unpaired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-05,1,unpaired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-05,1,unpaired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-05,1,paired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-05,1,paired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-05,1,paired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-05,1,paired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-05,1,paired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-05,1,paired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-05,1,paired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-05,1,paired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-05,1,paired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-05,1,paired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-05,1,paired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-05,1,paired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-05,1,paired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,1e-05,1,paired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-05,1,paired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-05,1,paired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-05,1,paired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-05,2,unpaired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-05,2,unpaired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-05,2,unpaired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-05,2,unpaired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-05,2,unpaired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-05,2,unpaired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-05,2,unpaired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-05,2,unpaired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-05,2,unpaired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-05,2,unpaired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-05,2,unpaired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-05,2,unpaired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-05,2,unpaired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,1e-05,2,unpaired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-05,2,unpaired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-05,2,unpaired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-05,2,unpaired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-05,2,paired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-05,2,paired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-05,2,paired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-05,2,paired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-05,2,paired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-05,2,paired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-05,2,paired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-05,2,paired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-05,2,paired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-05,2,paired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-05,2,paired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-05,2,paired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-05,2,paired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,1e-05,2,paired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-05,2,paired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-05,2,paired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-05,2,paired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-05,3,unpaired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-05,3,unpaired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-05,3,unpaired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-05,3,unpaired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-05,3,unpaired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-05,3,unpaired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-05,3,unpaired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-05,3,unpaired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-05,3,unpaired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-05,3,unpaired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-05,3,unpaired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-05,3,unpaired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-05,3,unpaired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,1e-05,3,unpaired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-05,3,unpaired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-05,3,unpaired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-05,3,unpaired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-05,3,paired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-05,3,paired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-05,3,paired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-05,3,paired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-05,3,paired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-05,3,paired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-05,3,paired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-05,3,paired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-05,3,paired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-05,3,paired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-05,3,paired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-05,3,paired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-05,3,paired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,1e-05,3,paired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-05,3,paired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-05,3,paired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-05,3,paired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-05,4,unpaired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-05,4,unpaired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-05,4,unpaired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-05,4,unpaired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-05,4,unpaired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-05,4,unpaired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-05,4,unpaired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-05,4,unpaired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-05,4,unpaired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-05,4,unpaired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-05,4,unpaired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-05,4,unpaired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-05,4,unpaired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,1e-05,4,unpaired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-05,4,unpaired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-05,4,unpaired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-05,4,unpaired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-05,4,paired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-05,4,paired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-05,4,paired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-05,4,paired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-05,4,paired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-05,4,paired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-05,4,paired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-05,4,paired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-05,4,paired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-05,4,paired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-05,4,paired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-05,4,paired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-05,4,paired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,1e-05,4,paired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-05,4,paired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-05,4,paired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-05,4,paired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-04,0,unpaired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-04,0,unpaired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-04,0,unpaired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-04,0,unpaired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-04,0,unpaired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-04,0,unpaired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-04,0,unpaired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-04,0,unpaired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-04,0,unpaired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-04,0,unpaired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-04,0,unpaired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-04,0,unpaired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-04,0,unpaired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,1e-04,0,unpaired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-04,0,unpaired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-04,0,unpaired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-04,0,unpaired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-04,0,paired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-04,0,paired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-04,0,paired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-04,0,paired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-04,0,paired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-04,0,paired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-04,0,paired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-04,0,paired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-04,0,paired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-04,0,paired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-04,0,paired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-04,0,paired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-04,0,paired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,1e-04,0,paired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-04,0,paired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-04,0,paired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-04,0,paired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-04,1,unpaired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-04,1,unpaired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-04,1,unpaired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-04,1,unpaired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-04,1,unpaired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-04,1,unpaired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-04,1,unpaired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-04,1,unpaired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-04,1,unpaired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-04,1,unpaired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-04,1,unpaired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-04,1,unpaired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-04,1,unpaired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,1e-04,1,unpaired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-04,1,unpaired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-04,1,unpaired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-04,1,unpaired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-04,1,paired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-04,1,paired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-04,1,paired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-04,1,paired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-04,1,paired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-04,1,paired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-04,1,paired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-04,1,paired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-04,1,paired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-04,1,paired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-04,1,paired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-04,1,paired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-04,1,paired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,1e-04,1,paired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-04,1,paired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-04,1,paired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-04,1,paired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-04,2,unpaired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-04,2,unpaired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-04,2,unpaired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-04,2,unpaired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-04,2,unpaired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-04,2,unpaired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-04,2,unpaired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-04,2,unpaired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-04,2,unpaired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-04,2,unpaired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-04,2,unpaired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-04,2,unpaired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-04,2,unpaired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,1e-04,2,unpaired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-04,2,unpaired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-04,2,unpaired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-04,2,unpaired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-04,2,paired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-04,2,paired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-04,2,paired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-04,2,paired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-04,2,paired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-04,2,paired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-04,2,paired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-04,2,paired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-04,2,paired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-04,2,paired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-04,2,paired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-04,2,paired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-04,2,paired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,1e-04,2,paired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-04,2,paired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-04,2,paired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-04,2,paired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-04,3,unpaired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-04,3,unpaired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-04,3,unpaired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-04,3,unpaired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-04,3,unpaired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-04,3,unpaired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-04,3,unpaired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-04,3,unpaired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-04,3,unpaired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-04,3,unpaired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-04,3,unpaired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-04,3,unpaired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-04,3,unpaired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,1e-04,3,unpaired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-04,3,unpaired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-04,3,unpaired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-04,3,unpaired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-04,3,paired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-04,3,paired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-04,3,paired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-04,3,paired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-04,3,paired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-04,3,paired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-04,3,paired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-04,3,paired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-04,3,paired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-04,3,paired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-04,3,paired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-04,3,paired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-04,3,paired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,1e-04,3,paired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-04,3,paired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-04,3,paired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-04,3,paired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-04,4,unpaired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-04,4,unpaired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-04,4,unpaired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-04,4,unpaired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-04,4,unpaired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-04,4,unpaired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-04,4,unpaired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-04,4,unpaired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-04,4,unpaired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-04,4,unpaired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-04,4,unpaired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-04,4,unpaired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-04,4,unpaired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,1e-04,4,unpaired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-04,4,unpaired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-04,4,unpaired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-04,4,unpaired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-04,4,paired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-04,4,paired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-04,4,paired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-04,4,paired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-04,4,paired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-04,4,paired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-04,4,paired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-04,4,paired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-04,4,paired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-04,4,paired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-04,4,paired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-04,4,paired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-04,4,paired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,1e-04,4,paired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-04,4,paired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-04,4,paired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-04,4,paired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-03,0,unpaired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-03,0,unpaired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-03,0,unpaired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-03,0,unpaired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-03,0,unpaired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-03,0,unpaired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-03,0,unpaired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-03,0,unpaired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-03,0,unpaired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-03,0,unpaired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-03,0,unpaired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-03,0,unpaired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-03,0,unpaired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,1e-03,0,unpaired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-03,0,unpaired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-03,0,unpaired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-03,0,unpaired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-03,0,paired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-03,0,paired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-03,0,paired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-03,0,paired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-03,0,paired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-03,0,paired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-03,0,paired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-03,0,paired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-03,0,paired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-03,0,paired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-03,0,paired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,,False,False,0.0
+perturbed,1e-03,0,paired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-03,0,paired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,1e-03,0,paired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-03,0,paired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-03,0,paired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-03,0,paired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-03,1,unpaired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-03,1,unpaired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-03,1,unpaired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-03,1,unpaired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-03,1,unpaired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-03,1,unpaired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-03,1,unpaired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-03,1,unpaired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-03,1,unpaired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-03,1,unpaired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-03,1,unpaired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-03,1,unpaired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-03,1,unpaired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,1e-03,1,unpaired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-03,1,unpaired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-03,1,unpaired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-03,1,unpaired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-03,1,paired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-03,1,paired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-03,1,paired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-03,1,paired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-03,1,paired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-03,1,paired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-03,1,paired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-03,1,paired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-03,1,paired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-03,1,paired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-03,1,paired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-03,1,paired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-03,1,paired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,1e-03,1,paired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-03,1,paired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-03,1,paired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-03,1,paired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-03,2,unpaired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-03,2,unpaired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-03,2,unpaired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-03,2,unpaired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-03,2,unpaired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-03,2,unpaired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-03,2,unpaired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-03,2,unpaired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-03,2,unpaired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-03,2,unpaired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-03,2,unpaired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-03,2,unpaired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-03,2,unpaired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,1e-03,2,unpaired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-03,2,unpaired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-03,2,unpaired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-03,2,unpaired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-03,2,paired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-03,2,paired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-03,2,paired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-03,2,paired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-03,2,paired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-03,2,paired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-03,2,paired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-03,2,paired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-03,2,paired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-03,2,paired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-03,2,paired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-03,2,paired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-03,2,paired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,1e-03,2,paired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-03,2,paired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-03,2,paired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-03,2,paired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-03,3,unpaired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-03,3,unpaired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-03,3,unpaired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-03,3,unpaired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-03,3,unpaired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-03,3,unpaired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-03,3,unpaired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-03,3,unpaired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-03,3,unpaired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-03,3,unpaired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-03,3,unpaired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-03,3,unpaired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-03,3,unpaired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,1e-03,3,unpaired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-03,3,unpaired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-03,3,unpaired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-03,3,unpaired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-03,3,paired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-03,3,paired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-03,3,paired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-03,3,paired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-03,3,paired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-03,3,paired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-03,3,paired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-03,3,paired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-03,3,paired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-03,3,paired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-03,3,paired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,,False,False,0.0
+perturbed,1e-03,3,paired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-03,3,paired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,1e-03,3,paired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-03,3,paired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-03,3,paired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-03,3,paired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-03,4,unpaired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-03,4,unpaired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-03,4,unpaired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-03,4,unpaired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-03,4,unpaired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-03,4,unpaired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-03,4,unpaired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-03,4,unpaired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-03,4,unpaired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-03,4,unpaired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-03,4,unpaired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,,False,False,0.0
+perturbed,1e-03,4,unpaired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-03,4,unpaired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,1e-03,4,unpaired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-03,4,unpaired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-03,4,unpaired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-03,4,unpaired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-03,4,paired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-03,4,paired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-03,4,paired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-03,4,paired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-03,4,paired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-03,4,paired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-03,4,paired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-03,4,paired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-03,4,paired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+perturbed,1e-03,4,paired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-03,4,paired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,,False,False,0.0
+perturbed,1e-03,4,paired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-03,4,paired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+perturbed,1e-03,4,paired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-03,4,paired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-03,4,paired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-03,4,paired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-02,0,unpaired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-02,0,unpaired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-02,0,unpaired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-02,0,unpaired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-02,0,unpaired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-02,0,unpaired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-02,0,unpaired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-02,0,unpaired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,,False,False,0.0
+perturbed,1e-02,0,unpaired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,,False,False,0.0
+perturbed,1e-02,0,unpaired,0.0,acrobot_euler,acrobot,numerical,3,energy,,False,False,0.0
+perturbed,1e-02,0,unpaired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,,False,False,0.0
+perturbed,1e-02,0,unpaired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-02,0,unpaired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1,True,False,0.5
+perturbed,1e-02,0,unpaired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-02,0,unpaired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-02,0,unpaired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-02,0,unpaired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-02,0,paired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-02,0,paired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-02,0,paired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-02,0,paired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-02,0,paired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-02,0,paired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-02,0,paired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-02,0,paired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,,False,False,0.0
+perturbed,1e-02,0,paired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,,False,False,0.0
+perturbed,1e-02,0,paired,0.0,acrobot_euler,acrobot,numerical,3,energy,,False,False,0.0
+perturbed,1e-02,0,paired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,,False,False,0.0
+perturbed,1e-02,0,paired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-02,0,paired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1,True,False,0.5
+perturbed,1e-02,0,paired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-02,0,paired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-02,0,paired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-02,0,paired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-02,1,unpaired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-02,1,unpaired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-02,1,unpaired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-02,1,unpaired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-02,1,unpaired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-02,1,unpaired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-02,1,unpaired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-02,1,unpaired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,,False,False,0.0
+perturbed,1e-02,1,unpaired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,,False,False,0.0
+perturbed,1e-02,1,unpaired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-02,1,unpaired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,,False,False,0.0
+perturbed,1e-02,1,unpaired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-02,1,unpaired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1,True,False,0.5
+perturbed,1e-02,1,unpaired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-02,1,unpaired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-02,1,unpaired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-02,1,unpaired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-02,1,paired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-02,1,paired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-02,1,paired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-02,1,paired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-02,1,paired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-02,1,paired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-02,1,paired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-02,1,paired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,,False,False,0.0
+perturbed,1e-02,1,paired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,,False,False,0.0
+perturbed,1e-02,1,paired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-02,1,paired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,,False,False,0.0
+perturbed,1e-02,1,paired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-02,1,paired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1,True,False,0.5
+perturbed,1e-02,1,paired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-02,1,paired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-02,1,paired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-02,1,paired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-02,2,unpaired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-02,2,unpaired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-02,2,unpaired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-02,2,unpaired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-02,2,unpaired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-02,2,unpaired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-02,2,unpaired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-02,2,unpaired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,,False,False,0.0
+perturbed,1e-02,2,unpaired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,,False,False,0.0
+perturbed,1e-02,2,unpaired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-02,2,unpaired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,,False,False,0.0
+perturbed,1e-02,2,unpaired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-02,2,unpaired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,,False,False,0.0
+perturbed,1e-02,2,unpaired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-02,2,unpaired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-02,2,unpaired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-02,2,unpaired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-02,2,paired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-02,2,paired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-02,2,paired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-02,2,paired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-02,2,paired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-02,2,paired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-02,2,paired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-02,2,paired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,,False,False,0.0
+perturbed,1e-02,2,paired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,,False,False,0.0
+perturbed,1e-02,2,paired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+perturbed,1e-02,2,paired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,,False,False,0.0
+perturbed,1e-02,2,paired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-02,2,paired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,,False,False,0.0
+perturbed,1e-02,2,paired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-02,2,paired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-02,2,paired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-02,2,paired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-02,3,unpaired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-02,3,unpaired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-02,3,unpaired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-02,3,unpaired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-02,3,unpaired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-02,3,unpaired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-02,3,unpaired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-02,3,unpaired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,,False,False,0.0
+perturbed,1e-02,3,unpaired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,,False,False,0.0
+perturbed,1e-02,3,unpaired,0.0,acrobot_euler,acrobot,numerical,3,energy,,False,False,0.0
+perturbed,1e-02,3,unpaired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,,False,False,0.0
+perturbed,1e-02,3,unpaired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-02,3,unpaired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,,False,False,0.0
+perturbed,1e-02,3,unpaired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-02,3,unpaired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-02,3,unpaired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-02,3,unpaired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-02,3,paired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-02,3,paired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-02,3,paired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-02,3,paired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-02,3,paired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-02,3,paired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-02,3,paired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-02,3,paired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,,False,False,0.0
+perturbed,1e-02,3,paired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,,False,False,0.0
+perturbed,1e-02,3,paired,0.0,acrobot_euler,acrobot,numerical,3,energy,,False,False,0.0
+perturbed,1e-02,3,paired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,,False,False,0.0
+perturbed,1e-02,3,paired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-02,3,paired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,,False,False,0.0
+perturbed,1e-02,3,paired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-02,3,paired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-02,3,paired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-02,3,paired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-02,4,unpaired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-02,4,unpaired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-02,4,unpaired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-02,4,unpaired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-02,4,unpaired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-02,4,unpaired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-02,4,unpaired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-02,4,unpaired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,,False,False,0.0
+perturbed,1e-02,4,unpaired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,,False,False,0.0
+perturbed,1e-02,4,unpaired,0.0,acrobot_euler,acrobot,numerical,3,energy,,False,False,0.0
+perturbed,1e-02,4,unpaired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,,False,False,0.0
+perturbed,1e-02,4,unpaired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-02,4,unpaired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1,True,False,0.5
+perturbed,1e-02,4,unpaired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-02,4,unpaired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-02,4,unpaired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-02,4,unpaired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-02,4,paired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-02,4,paired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-02,4,paired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-02,4,paired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+perturbed,1e-02,4,paired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-02,4,paired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-02,4,paired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-02,4,paired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,,False,False,0.0
+perturbed,1e-02,4,paired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,,False,False,0.0
+perturbed,1e-02,4,paired,0.0,acrobot_euler,acrobot,numerical,3,energy,,False,False,0.0
+perturbed,1e-02,4,paired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,,False,False,0.0
+perturbed,1e-02,4,paired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-02,4,paired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1,True,False,0.5
+perturbed,1e-02,4,paired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-02,4,paired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-02,4,paired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-02,4,paired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-01,0,unpaired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-01,0,unpaired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-01,0,unpaired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-01,0,unpaired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-01,0,unpaired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-01,0,unpaired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,,False,False,0.0
+perturbed,1e-01,0,unpaired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-01,0,unpaired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,,False,False,0.0
+perturbed,1e-01,0,unpaired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,,False,False,0.0
+perturbed,1e-01,0,unpaired,0.0,acrobot_euler,acrobot,numerical,3,energy,,False,False,0.0
+perturbed,1e-01,0,unpaired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,,False,False,0.0
+perturbed,1e-01,0,unpaired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-01,0,unpaired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1,True,False,0.5
+perturbed,1e-01,0,unpaired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-01,0,unpaired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-01,0,unpaired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-01,0,unpaired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-01,0,paired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-01,0,paired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-01,0,paired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-01,0,paired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-01,0,paired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-01,0,paired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,,False,False,0.0
+perturbed,1e-01,0,paired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-y,True,False,0.5
+perturbed,1e-01,0,paired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,,False,False,0.0
+perturbed,1e-01,0,paired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,,False,False,0.0
+perturbed,1e-01,0,paired,0.0,acrobot_euler,acrobot,numerical,3,energy,,False,False,0.0
+perturbed,1e-01,0,paired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,,False,False,0.0
+perturbed,1e-01,0,paired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-01,0,paired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1,True,False,0.5
+perturbed,1e-01,0,paired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-01,0,paired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-01,0,paired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-01,0,paired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-01,1,unpaired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-01,1,unpaired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-01,1,unpaired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-01,1,unpaired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-01,1,unpaired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-01,1,unpaired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x,True,False,0.5
+perturbed,1e-01,1,unpaired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-y,True,False,0.5
+perturbed,1e-01,1,unpaired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,,False,False,0.0
+perturbed,1e-01,1,unpaired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,,False,False,0.0
+perturbed,1e-01,1,unpaired,0.0,acrobot_euler,acrobot,numerical,3,energy,,False,False,0.0
+perturbed,1e-01,1,unpaired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,,False,False,0.0
+perturbed,1e-01,1,unpaired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-01,1,unpaired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1,True,False,0.5
+perturbed,1e-01,1,unpaired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-01,1,unpaired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-01,1,unpaired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-01,1,unpaired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-01,1,paired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-01,1,paired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-01,1,paired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-01,1,paired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-01,1,paired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-01,1,paired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x,True,False,0.5
+perturbed,1e-01,1,paired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-y,True,False,0.5
+perturbed,1e-01,1,paired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,,False,False,0.0
+perturbed,1e-01,1,paired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,,False,False,0.0
+perturbed,1e-01,1,paired,0.0,acrobot_euler,acrobot,numerical,3,energy,,False,False,0.0
+perturbed,1e-01,1,paired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,,False,False,0.0
+perturbed,1e-01,1,paired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-01,1,paired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1,True,False,0.5
+perturbed,1e-01,1,paired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-01,1,paired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-01,1,paired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-01,1,paired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-01,2,unpaired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-01,2,unpaired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-01,2,unpaired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-01,2,unpaired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-01,2,unpaired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-01,2,unpaired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,,False,False,0.0
+perturbed,1e-01,2,unpaired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-y,True,False,0.5
+perturbed,1e-01,2,unpaired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,,False,False,0.0
+perturbed,1e-01,2,unpaired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,,False,False,0.0
+perturbed,1e-01,2,unpaired,0.0,acrobot_euler,acrobot,numerical,3,energy,,False,False,0.0
+perturbed,1e-01,2,unpaired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,,False,False,0.0
+perturbed,1e-01,2,unpaired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-01,2,unpaired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,,False,False,0.0
+perturbed,1e-01,2,unpaired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-01,2,unpaired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-01,2,unpaired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-01,2,unpaired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-01,2,paired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-01,2,paired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-01,2,paired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-01,2,paired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-01,2,paired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-01,2,paired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,,False,False,0.0
+perturbed,1e-01,2,paired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-01,2,paired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,,False,False,0.0
+perturbed,1e-01,2,paired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,,False,False,0.0
+perturbed,1e-01,2,paired,0.0,acrobot_euler,acrobot,numerical,3,energy,,False,False,0.0
+perturbed,1e-01,2,paired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,,False,False,0.0
+perturbed,1e-01,2,paired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-01,2,paired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,,False,False,0.0
+perturbed,1e-01,2,paired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-01,2,paired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-01,2,paired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-01,2,paired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-01,3,unpaired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-01,3,unpaired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-01,3,unpaired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-01,3,unpaired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-01,3,unpaired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-01,3,unpaired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x,True,False,0.5
+perturbed,1e-01,3,unpaired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-y,True,False,0.5
+perturbed,1e-01,3,unpaired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,,False,False,0.0
+perturbed,1e-01,3,unpaired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,,False,False,0.0
+perturbed,1e-01,3,unpaired,0.0,acrobot_euler,acrobot,numerical,3,energy,,False,False,0.0
+perturbed,1e-01,3,unpaired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,,False,False,0.0
+perturbed,1e-01,3,unpaired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-01,3,unpaired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,,False,False,0.0
+perturbed,1e-01,3,unpaired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-01,3,unpaired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-01,3,unpaired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-01,3,unpaired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-01,3,paired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-01,3,paired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-01,3,paired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-01,3,paired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-01,3,paired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-01,3,paired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x,True,False,0.5
+perturbed,1e-01,3,paired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-y,True,False,0.5
+perturbed,1e-01,3,paired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,,False,False,0.0
+perturbed,1e-01,3,paired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,,False,False,0.0
+perturbed,1e-01,3,paired,0.0,acrobot_euler,acrobot,numerical,3,energy,,False,False,0.0
+perturbed,1e-01,3,paired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,,False,False,0.0
+perturbed,1e-01,3,paired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-01,3,paired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,,False,False,0.0
+perturbed,1e-01,3,paired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-01,3,paired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-01,3,paired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-01,3,paired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-01,4,unpaired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-01,4,unpaired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-01,4,unpaired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-01,4,unpaired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-01,4,unpaired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-01,4,unpaired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,,False,False,0.0
+perturbed,1e-01,4,unpaired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-01,4,unpaired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,,False,False,0.0
+perturbed,1e-01,4,unpaired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,,False,False,0.0
+perturbed,1e-01,4,unpaired,0.0,acrobot_euler,acrobot,numerical,3,energy,,False,False,0.0
+perturbed,1e-01,4,unpaired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,,False,False,0.0
+perturbed,1e-01,4,unpaired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-01,4,unpaired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1,True,False,0.5
+perturbed,1e-01,4,unpaired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-01,4,unpaired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-01,4,unpaired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-01,4,unpaired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+perturbed,1e-01,4,paired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-01,4,paired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-01,4,paired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-01,4,paired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-01,4,paired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,,False,False,0.0
+perturbed,1e-01,4,paired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,,False,False,0.0
+perturbed,1e-01,4,paired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+perturbed,1e-01,4,paired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,,False,False,0.0
+perturbed,1e-01,4,paired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,,False,False,0.0
+perturbed,1e-01,4,paired,0.0,acrobot_euler,acrobot,numerical,3,energy,,False,False,0.0
+perturbed,1e-01,4,paired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,,False,False,0.0
+perturbed,1e-01,4,paired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+perturbed,1e-01,4,paired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1,True,False,0.5
+perturbed,1e-01,4,paired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+perturbed,1e-01,4,paired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+perturbed,1e-01,4,paired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+perturbed,1e-01,4,paired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+recovered,0e+00,0,paired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+recovered,0e+00,0,paired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+recovered,0e+00,0,paired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+recovered,0e+00,0,paired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+recovered,0e+00,0,paired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,energy,True,True,1.0
+recovered,0e+00,0,paired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+recovered,0e+00,0,paired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+recovered,0e+00,0,paired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+recovered,0e+00,0,paired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+recovered,0e+00,0,paired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+recovered,0e+00,0,paired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+recovered,0e+00,0,paired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+recovered,0e+00,0,paired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+recovered,0e+00,0,paired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+recovered,0e+00,0,paired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+recovered,0e+00,0,paired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+recovered,0e+00,0,paired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+forced,0e+00,0,paired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+forced,0e+00,0,paired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+forced,0e+00,0,paired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+forced,0e+00,0,paired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+forced,0e+00,0,paired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,energy,True,True,1.0
+forced,0e+00,0,paired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+forced,0e+00,0,paired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+forced,0e+00,0,paired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+forced,0e+00,0,paired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+forced,0e+00,0,paired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+forced,0e+00,0,paired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+forced,0e+00,0,paired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+forced,0e+00,0,paired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+forced,0e+00,0,paired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+forced,0e+00,0,paired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+forced,0e+00,0,paired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+forced,0e+00,0,paired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+exact,0e+00,0,paired,0.0,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+exact,0e+00,0,paired,0.0,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+exact,0e+00,0,paired,0.0,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+exact,0e+00,0,paired,0.0,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+exact,0e+00,0,paired,0.0,acrobot_g_9.81,acrobot,parameter,3,energy,energy,True,True,1.0
+exact,0e+00,0,paired,0.0,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+exact,0e+00,0,paired,0.0,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+exact,0e+00,0,paired,0.0,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+exact,0e+00,0,paired,0.0,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+exact,0e+00,0,paired,0.0,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+exact,0e+00,0,paired,0.0,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+exact,0e+00,0,paired,0.0,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+exact,0e+00,0,paired,0.0,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+exact,0e+00,0,paired,0.0,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+exact,0e+00,0,paired,0.0,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+exact,0e+00,0,paired,0.0,none_acrobot,acrobot,control,3,,,False,True,1.0
+exact,0e+00,0,paired,0.0,none_reacher,reacher,control,5,,,False,True,1.0
+recovered,1e-08,0,paired,1e-08,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+recovered,1e-08,0,paired,1e-08,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+recovered,1e-08,0,paired,1e-08,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+recovered,1e-08,0,paired,1e-08,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+recovered,1e-08,0,paired,1e-08,acrobot_g_9.81,acrobot,parameter,3,energy,energy,True,True,1.0
+recovered,1e-08,0,paired,1e-08,reacher_l2_0.13,reacher,parameter,4,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+recovered,1e-08,0,paired,1e-08,reacher_l1_0.09,reacher,parameter,4,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+recovered,1e-08,0,paired,1e-08,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+recovered,1e-08,0,paired,1e-08,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+recovered,1e-08,0,paired,1e-08,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+recovered,1e-08,0,paired,1e-08,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+recovered,1e-08,0,paired,1e-08,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+recovered,1e-08,0,paired,1e-08,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+recovered,1e-08,0,paired,1e-08,reacher_dz_offset,reacher,observation,4,dz=0,,False,False,0.0
+recovered,1e-08,0,paired,1e-08,reacher_obs_swap,reacher,observation,4,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+recovered,1e-08,0,paired,1e-08,none_acrobot,acrobot,control,3,,,False,True,1.0
+recovered,1e-08,0,paired,1e-08,none_reacher,reacher,control,4,,,False,True,1.0
+forced,1e-08,0,paired,1e-08,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+forced,1e-08,0,paired,1e-08,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+forced,1e-08,0,paired,1e-08,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+forced,1e-08,0,paired,1e-08,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+forced,1e-08,0,paired,1e-08,acrobot_g_9.81,acrobot,parameter,3,energy,energy,True,True,1.0
+forced,1e-08,0,paired,1e-08,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,dz=0|fk-x|fk-y,True,False,0.6666666666666666
+forced,1e-08,0,paired,1e-08,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+forced,1e-08,0,paired,1e-08,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+forced,1e-08,0,paired,1e-08,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+forced,1e-08,0,paired,1e-08,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+forced,1e-08,0,paired,1e-08,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+forced,1e-08,0,paired,1e-08,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+forced,1e-08,0,paired,1e-08,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+forced,1e-08,0,paired,1e-08,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+forced,1e-08,0,paired,1e-08,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+forced,1e-08,0,paired,1e-08,none_acrobot,acrobot,control,3,,,False,True,1.0
+forced,1e-08,0,paired,1e-08,none_reacher,reacher,control,5,,,False,True,1.0
+exact,1e-08,0,paired,1e-08,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+exact,1e-08,0,paired,1e-08,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+exact,1e-08,0,paired,1e-08,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+exact,1e-08,0,paired,1e-08,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+exact,1e-08,0,paired,1e-08,acrobot_g_9.81,acrobot,parameter,3,energy,energy,True,True,1.0
+exact,1e-08,0,paired,1e-08,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+exact,1e-08,0,paired,1e-08,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+exact,1e-08,0,paired,1e-08,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+exact,1e-08,0,paired,1e-08,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+exact,1e-08,0,paired,1e-08,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+exact,1e-08,0,paired,1e-08,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+exact,1e-08,0,paired,1e-08,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+exact,1e-08,0,paired,1e-08,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+exact,1e-08,0,paired,1e-08,reacher_dz_offset,reacher,observation,5,dz=0,,False,False,0.0
+exact,1e-08,0,paired,1e-08,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+exact,1e-08,0,paired,1e-08,none_acrobot,acrobot,control,3,,,False,True,1.0
+exact,1e-08,0,paired,1e-08,none_reacher,reacher,control,5,,,False,True,1.0
+recovered,1e-06,0,paired,1e-06,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+recovered,1e-06,0,paired,1e-06,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+recovered,1e-06,0,paired,1e-06,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+recovered,1e-06,0,paired,1e-06,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+recovered,1e-06,0,paired,1e-06,acrobot_g_9.81,acrobot,parameter,3,energy,energy,True,True,1.0
+recovered,1e-06,0,paired,1e-06,reacher_l2_0.13,reacher,parameter,4,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+recovered,1e-06,0,paired,1e-06,reacher_l1_0.09,reacher,parameter,4,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+recovered,1e-06,0,paired,1e-06,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+recovered,1e-06,0,paired,1e-06,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+recovered,1e-06,0,paired,1e-06,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+recovered,1e-06,0,paired,1e-06,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+recovered,1e-06,0,paired,1e-06,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+recovered,1e-06,0,paired,1e-06,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+recovered,1e-06,0,paired,1e-06,reacher_dz_offset,reacher,observation,4,dz=0,,False,False,0.0
+recovered,1e-06,0,paired,1e-06,reacher_obs_swap,reacher,observation,4,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+recovered,1e-06,0,paired,1e-06,none_acrobot,acrobot,control,3,,,False,True,1.0
+recovered,1e-06,0,paired,1e-06,none_reacher,reacher,control,4,,,False,True,1.0
+forced,1e-06,0,paired,1e-06,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+forced,1e-06,0,paired,1e-06,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+forced,1e-06,0,paired,1e-06,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+forced,1e-06,0,paired,1e-06,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+forced,1e-06,0,paired,1e-06,acrobot_g_9.81,acrobot,parameter,3,energy,energy,True,True,1.0
+forced,1e-06,0,paired,1e-06,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,dz=0|fk-x|fk-y,True,False,0.6666666666666666
+forced,1e-06,0,paired,1e-06,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+forced,1e-06,0,paired,1e-06,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+forced,1e-06,0,paired,1e-06,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+forced,1e-06,0,paired,1e-06,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+forced,1e-06,0,paired,1e-06,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+forced,1e-06,0,paired,1e-06,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+forced,1e-06,0,paired,1e-06,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+forced,1e-06,0,paired,1e-06,reacher_dz_offset,reacher,observation,5,dz=0,dz=0,True,True,1.0
+forced,1e-06,0,paired,1e-06,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+forced,1e-06,0,paired,1e-06,none_acrobot,acrobot,control,3,,,False,True,1.0
+forced,1e-06,0,paired,1e-06,none_reacher,reacher,control,5,,,False,True,1.0
+exact,1e-06,0,paired,1e-06,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+exact,1e-06,0,paired,1e-06,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+exact,1e-06,0,paired,1e-06,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+exact,1e-06,0,paired,1e-06,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+exact,1e-06,0,paired,1e-06,acrobot_g_9.81,acrobot,parameter,3,energy,energy,True,True,1.0
+exact,1e-06,0,paired,1e-06,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+exact,1e-06,0,paired,1e-06,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+exact,1e-06,0,paired,1e-06,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+exact,1e-06,0,paired,1e-06,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+exact,1e-06,0,paired,1e-06,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+exact,1e-06,0,paired,1e-06,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+exact,1e-06,0,paired,1e-06,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+exact,1e-06,0,paired,1e-06,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+exact,1e-06,0,paired,1e-06,reacher_dz_offset,reacher,observation,5,dz=0,,False,False,0.0
+exact,1e-06,0,paired,1e-06,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+exact,1e-06,0,paired,1e-06,none_acrobot,acrobot,control,3,,,False,True,1.0
+exact,1e-06,0,paired,1e-06,none_reacher,reacher,control,5,,,False,True,1.0
+recovered,1e-04,0,paired,0.0001,acrobot_m2_1.3,acrobot,parameter,2,energy,,False,False,0.0
+recovered,1e-04,0,paired,0.0001,acrobot_l1_1.2,acrobot,parameter,2,energy,,False,False,0.0
+recovered,1e-04,0,paired,0.0001,acrobot_lc2_0.6,acrobot,parameter,2,energy,,False,False,0.0
+recovered,1e-04,0,paired,0.0001,acrobot_I2_1.5,acrobot,parameter,2,energy,,False,False,0.0
+recovered,1e-04,0,paired,0.0001,acrobot_g_9.81,acrobot,parameter,2,energy,,False,False,0.0
+recovered,1e-04,0,paired,0.0001,reacher_l2_0.13,reacher,parameter,4,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+recovered,1e-04,0,paired,0.0001,reacher_l1_0.09,reacher,parameter,4,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+recovered,1e-04,0,paired,0.0001,acrobot_nips_coriolis,acrobot,structural,2,energy,,False,False,0.0
+recovered,1e-04,0,paired,0.0001,acrobot_torque_leak,acrobot,structural,2,energy,,False,False,0.0
+recovered,1e-04,0,paired,0.0001,acrobot_euler,acrobot,numerical,2,energy,,False,False,0.0
+recovered,1e-04,0,paired,0.0001,acrobot_dt_0.2,acrobot,numerical,2,energy,,False,False,0.0
+recovered,1e-04,0,paired,0.0001,acrobot_obs_swap,acrobot,observation,2,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2,True,False,0.6666666666666666
+recovered,1e-04,0,paired,0.0001,acrobot_obs_unnormalised,acrobot,observation,2,unit-norm th1|energy,unit-norm th1,True,False,0.5
+recovered,1e-04,0,paired,0.0001,reacher_dz_offset,reacher,observation,4,dz=0,,False,False,0.0
+recovered,1e-04,0,paired,0.0001,reacher_obs_swap,reacher,observation,4,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+recovered,1e-04,0,paired,0.0001,none_acrobot,acrobot,control,2,,,False,True,1.0
+recovered,1e-04,0,paired,0.0001,none_reacher,reacher,control,4,,,False,True,1.0
+forced,1e-04,0,paired,0.0001,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+forced,1e-04,0,paired,0.0001,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+forced,1e-04,0,paired,0.0001,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+forced,1e-04,0,paired,0.0001,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+forced,1e-04,0,paired,0.0001,acrobot_g_9.81,acrobot,parameter,3,energy,,False,False,0.0
+forced,1e-04,0,paired,0.0001,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,dz=0|fk-x|fk-y,True,False,0.6666666666666666
+forced,1e-04,0,paired,0.0001,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+forced,1e-04,0,paired,0.0001,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+forced,1e-04,0,paired,0.0001,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+forced,1e-04,0,paired,0.0001,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+forced,1e-04,0,paired,0.0001,acrobot_dt_0.2,acrobot,numerical,3,energy,,False,False,0.0
+forced,1e-04,0,paired,0.0001,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+forced,1e-04,0,paired,0.0001,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+forced,1e-04,0,paired,0.0001,reacher_dz_offset,reacher,observation,5,dz=0,,False,False,0.0
+forced,1e-04,0,paired,0.0001,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+forced,1e-04,0,paired,0.0001,none_acrobot,acrobot,control,3,,,False,True,1.0
+forced,1e-04,0,paired,0.0001,none_reacher,reacher,control,5,,,False,True,1.0
+exact,1e-04,0,paired,0.0001,acrobot_m2_1.3,acrobot,parameter,3,energy,energy,True,True,1.0
+exact,1e-04,0,paired,0.0001,acrobot_l1_1.2,acrobot,parameter,3,energy,energy,True,True,1.0
+exact,1e-04,0,paired,0.0001,acrobot_lc2_0.6,acrobot,parameter,3,energy,energy,True,True,1.0
+exact,1e-04,0,paired,0.0001,acrobot_I2_1.5,acrobot,parameter,3,energy,energy,True,True,1.0
+exact,1e-04,0,paired,0.0001,acrobot_g_9.81,acrobot,parameter,3,energy,,False,False,0.0
+exact,1e-04,0,paired,0.0001,reacher_l2_0.13,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+exact,1e-04,0,paired,0.0001,reacher_l1_0.09,reacher,parameter,5,fk-x|fk-y,fk-x|fk-y,True,True,1.0
+exact,1e-04,0,paired,0.0001,acrobot_nips_coriolis,acrobot,structural,3,energy,energy,True,True,1.0
+exact,1e-04,0,paired,0.0001,acrobot_torque_leak,acrobot,structural,3,energy,energy,True,True,1.0
+exact,1e-04,0,paired,0.0001,acrobot_euler,acrobot,numerical,3,energy,energy,True,True,1.0
+exact,1e-04,0,paired,0.0001,acrobot_dt_0.2,acrobot,numerical,3,energy,energy,True,True,1.0
+exact,1e-04,0,paired,0.0001,acrobot_obs_swap,acrobot,observation,3,unit-norm th1|unit-norm th2|energy,unit-norm th1|unit-norm th2|energy,True,True,1.0
+exact,1e-04,0,paired,0.0001,acrobot_obs_unnormalised,acrobot,observation,3,unit-norm th1|energy,unit-norm th1|energy,True,True,1.0
+exact,1e-04,0,paired,0.0001,reacher_dz_offset,reacher,observation,5,dz=0,,False,False,0.0
+exact,1e-04,0,paired,0.0001,reacher_obs_swap,reacher,observation,5,unit-norm th1|unit-norm th2|fk-x|fk-y,unit-norm th1|unit-norm th2|fk-x|fk-y,True,True,1.0
+exact,1e-04,0,paired,0.0001,none_acrobot,acrobot,control,3,,,False,True,1.0
+exact,1e-04,0,paired,0.0001,none_reacher,reacher,control,5,,,False,True,1.0

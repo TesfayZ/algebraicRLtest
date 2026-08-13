@@ -1,0 +1,36 @@
+# Project virtualenv for constraint-consistent-rl, on CPython 3.14.
+#
+#     python3 -m venv venv
+#     ./venv/bin/pip install -r requirements.txt
+#
+# Versions are the ones the paper's numbers were produced under; the
+# reproducibility appendix quotes the Python, SymPy and NumPy rows directly.
+# Exact direct dependencies from the environment used for the paper results.
+# Torch stays on its separate CPU index (see below).
+#
+# The release audit under `audit/` does NOT use this file. It builds one
+# virtualenv per shipped release on CPython 3.10, from the pinned table in
+# `audit/setup_envs.sh`, which is the point of the experiment.
+
+# The algebraic core: recovery, deflation, Groebner canonicalisation, screening.
+numpy==2.5.1
+scipy==1.18.0
+sympy==1.14.0
+
+# CSV handling in the benchmark drivers.
+pandas==3.0.5
+
+# Figure generation from the committed CSVs.
+matplotlib==3.11.1
+
+# torch is deliberately NOT listed. It is used only by the E2 world model and
+# the E3 PPO implementation, and resolving it from the default index pulls the
+# CUDA build, about 2.5 GB, which is then replaced by the CPU wheel the README
+# tells you to install. Install it separately and from its own index:
+#
+#     pip install torch==2.13.0+cpu --index-url https://download.pytorch.org/whl/cpu
+#
+# Everything algebraic runs without it.
+
+# The shipped environments the audit and the negative controls point at.
+gymnasium[classic-control,mujoco]==1.3.0

@@ -1,0 +1,65 @@
+arm,system,noise,generator,recovered,coeff_deviation
+recovered,acrobot,0.0,unit-norm th1,True,9.08756711201214e-16
+recovered,acrobot,0.0,unit-norm th2,True,3.625973214694716e-16
+recovered,acrobot,0.0,energy,True,2.4426411634722122e-08
+recovered,reacher,0.0,unit-norm th1,True,1.812986607347358e-16
+recovered,reacher,0.0,unit-norm th2,True,6.409875621278547e-17
+recovered,reacher,0.0,dz=0,True,0.0
+recovered,reacher,0.0,fk-x,True,4.2653589016078334e-16
+recovered,reacher,0.0,fk-y,True,4.318346758137113e-16
+forced,acrobot,0.0,unit-norm th1,True,9.08756711201214e-16
+forced,acrobot,0.0,unit-norm th2,True,3.625973214694716e-16
+forced,acrobot,0.0,energy,True,2.4426411634722122e-08
+forced,reacher,0.0,unit-norm th1,True,1.812986607347358e-16
+forced,reacher,0.0,unit-norm th2,True,6.409875621278547e-17
+forced,reacher,0.0,dz=0,True,0.0
+forced,reacher,0.0,fk-x,True,4.2653589016078334e-16
+forced,reacher,0.0,fk-y,True,4.318346758137113e-16
+recovered,acrobot,1e-08,unit-norm th1,True,4.830928823658229e-08
+recovered,acrobot,1e-08,unit-norm th2,True,1.7872602223506325e-09
+recovered,acrobot,1e-08,energy,True,1.0165852052829124e-05
+recovered,reacher,1e-08,unit-norm th1,True,3.313191211318554e-10
+recovered,reacher,1e-08,unit-norm th2,True,6.695309355436951e-10
+recovered,reacher,1e-08,fk-x,True,9.748360442609993e-10
+recovered,reacher,1e-08,fk-y,True,5.316904912532576e-10
+recovered,reacher,1e-08,dz=0,False,nan
+forced,acrobot,1e-08,unit-norm th1,True,4.830928823658229e-08
+forced,acrobot,1e-08,unit-norm th2,True,1.7872602223506325e-09
+forced,acrobot,1e-08,energy,True,1.0165852052829124e-05
+forced,reacher,1e-08,unit-norm th1,True,3.313191211318554e-10
+forced,reacher,1e-08,unit-norm th2,True,6.695309355436951e-10
+forced,reacher,1e-08,dz=0,True,3.0975095276018113e-06
+forced,reacher,1e-08,fk-x,True,9.748360442609993e-10
+forced,reacher,1e-08,fk-y,True,5.316904912532576e-10
+recovered,acrobot,1e-06,unit-norm th1,True,4.838514018995733e-06
+recovered,acrobot,1e-06,unit-norm th2,True,3.159165237342794e-07
+recovered,acrobot,1e-06,energy,True,0.0006957724182765418
+recovered,reacher,1e-06,unit-norm th1,True,7.048962091429286e-08
+recovered,reacher,1e-06,unit-norm th2,True,1.2130075065754053e-07
+recovered,reacher,1e-06,fk-x,True,2.436644881166993e-07
+recovered,reacher,1e-06,fk-y,True,2.0392495404503093e-07
+recovered,reacher,1e-06,dz=0,False,nan
+forced,acrobot,1e-06,unit-norm th1,True,4.838514018995733e-06
+forced,acrobot,1e-06,unit-norm th2,True,3.159165237342794e-07
+forced,acrobot,1e-06,energy,True,0.0006957724182765418
+forced,reacher,1e-06,unit-norm th1,True,7.048962091429286e-08
+forced,reacher,1e-06,unit-norm th2,True,1.2130075065754053e-07
+forced,reacher,1e-06,dz=0,True,0.0003097528953090958
+forced,reacher,1e-06,fk-x,True,2.436644881166993e-07
+forced,reacher,1e-06,fk-y,True,2.0392495404503093e-07
+recovered,acrobot,0.0001,unit-norm th1,True,0.0004362394673900172
+recovered,acrobot,0.0001,unit-norm th2,True,3.154868910284625e-05
+recovered,acrobot,0.0001,energy,False,nan
+recovered,reacher,0.0001,unit-norm th1,True,7.049976487691776e-06
+recovered,reacher,0.0001,unit-norm th2,True,1.212968695663106e-05
+recovered,reacher,0.0001,fk-x,True,2.438363702873201e-05
+recovered,reacher,0.0001,fk-y,True,2.041002770439261e-05
+recovered,reacher,0.0001,dz=0,False,nan
+forced,acrobot,0.0001,unit-norm th1,True,0.0004362394673900172
+forced,acrobot,0.0001,unit-norm th2,True,3.154868910284625e-05
+forced,acrobot,0.0001,energy,True,0.9999943228981003
+forced,reacher,0.0001,unit-norm th1,True,7.049976487691776e-06
+forced,reacher,0.0001,unit-norm th2,True,1.212968695663106e-05
+forced,reacher,0.0001,dz=0,True,0.030978161794724273
+forced,reacher,0.0001,fk-x,True,2.438363702873201e-05
+forced,reacher,0.0001,fk-y,True,2.041002770439261e-05
