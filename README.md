@@ -1,6 +1,8 @@
 # Diagnosing Faults in Reinforcement Learning Simulators and World Models with Canonical Polynomial Invariants
 
-Latex references here refer to the document in `doc/*.tex`
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22650767.svg)](https://doi.org/10.5281/zenodo.22650767)
+
+The paper is archived on Zenodo at [10.5281/zenodo.22650767](https://doi.org/10.5281/zenodo.22650767). Latex references here refer to the document in `doc/*.tex`
 
 Localising and attributing physics faults with canonical polynomial invariants.
 
