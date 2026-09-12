@@ -1,7 +1,8 @@
 # Draft issue for Farama-Foundation/Gymnasium
 
-Not yet submitted. Reproducer below runs against a stock install and needs
-nothing from this repository.
+Filed as Farama-Foundation/Gymnasium#1690: https://github.com/Farama-Foundation/Gymnasium/issues/1690.
+Reproducer below runs against a stock install and needs nothing from this
+repository.
 
 ---
 

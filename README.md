@@ -156,8 +156,7 @@ drops. Three properties of the benchmarks came out of it.
 2. Reacher's observation fails its own forward kinematics by `6e-9`, because
    `mj_forward` is not called after `mj_step` and the two halves of the
    observation are read at different points of the integration step. Written up
-   for upstream in [audit/UPSTREAM_ISSUE.md](audit/UPSTREAM_ISSUE.md); not
-   submitted.
+   for upstream in [audit/UPSTREAM_ISSUE.md](audit/UPSTREAM_ISSUE.md); Written up for upstream as Farama-Foundation/Gymnasium#1690.
 3. On InvertedDoublePendulum, the one chaotic environment in the matrix, two
    releases running identical model files separate by up to `1e+1` over 500
    steps from a first-step difference of `2.2e-16`. That is Lyapunov growth of a
